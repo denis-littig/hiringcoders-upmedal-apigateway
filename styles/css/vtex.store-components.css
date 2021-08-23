@@ -1,0 +1,21 @@
+.imageElement--sliderimage {
+    border-radius: 13px;
+}
+
+.paginationDotsContainer {
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.searchBarContainer {
+    min-width: 100px;
+    width: 500px;
+}
+
+.searchIcon {
+    color: #ffffff;
+}
+
+.imageElement {
+    width: 90%;
+}

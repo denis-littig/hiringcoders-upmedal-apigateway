@@ -1,0 +1,21 @@
+.listItem {
+    border-color: #232323;
+    color: #232323;
+    background: #232323;
+}
+
+.listItem:active {
+    border-color: #232323;
+    color: #232323;
+    background: #232323;
+}
+
+.listItem:hover {
+    border-color: #232323;
+    color: #232323;
+    background: #232323;
+}
+
+.listContainer {
+    background-color: #212121;
+}

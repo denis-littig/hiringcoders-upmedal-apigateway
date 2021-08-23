@@ -1,0 +1,163 @@
+{
+  //search results queries
+  //Promoção
+  "search-result-layout.customQuery#promocao": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "etapa",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Corinthians
+  "search-result-layout.customQuery#corinthians": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "corinthians",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Palmeiras
+  "search-result-layout.customQuery#palmeiras": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "palmeiras",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Signos
+  "search-result-layout.customQuery#signos": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "signos",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Divertidos
+  "search-result-layout.customQuery#divertidos": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "divertidos",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //7 Maravilhas
+  "search-result-layout.customQuery#7maravilhas": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "7 maravilhas",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Guerreiros
+  "search-result-layout.customQuery#guerreiros": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "guerreiros",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Album 1
+  "search-result-layout.customQuery#album1": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "album 1",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Album 2
+  "search-result-layout.customQuery#album2": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "album 2",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  },
+  //Album 3
+  "search-result-layout.customQuery#album3": {
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "queryField": "album 3",
+        "mapField": "ft",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      //"search-result-layout.mobile#home"
+      //"search-not-found-layout"
+    ]
+  }
+}

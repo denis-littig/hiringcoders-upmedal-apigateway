@@ -1,0 +1,15 @@
+{
+    "store.custom#contato": {
+        "children": [
+            "flex-layout.row#contato"
+        ]
+    },
+    "flex-layout.row#contato": {
+        "props": {
+            "blockClass": "form"
+        },
+        "children": [
+            "denisform"
+        ]
+    }
+}

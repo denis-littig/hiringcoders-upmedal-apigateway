@@ -1,0 +1,85 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer"]
+  },
+  "footer-layout.mobile": {
+    "children": []
+  },
+  "flex-layout.row#footer": {
+    "props": {
+      "blockClass": "footer",
+      "preserveLayoutOnMobile": true	
+    },
+    "children": ["vtex.menu@2.x:menu#websites"]
+  },
+  "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "blockClass": "menufooter",
+      "items": [
+        {
+          "id": "menu-item-entrar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "iconProps": {
+            "id": "hpa-profile",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "green",
+            "mutedClassName": "c-action-primary"
+          },
+          "itemProps": {
+            "type": "internal",
+            "href": "/login",
+            "noFollow": false,
+            "tagTitle": "Entrar",
+            "text": "Entrar"
+          }
+        },
+        {
+          "id": "menu-item-contato",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "iconProps": {
+            "id": "sti-check--outline",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "green",
+            "mutedClassName": "c-action-primary"
+          },
+          "itemProps": {
+            "type": "internal",
+            "href": "/contato",
+            "noFollow": false,
+            "tagTitle": "desafios",
+            "text": "Fique por dentro das nossas novidades"
+          }
+        },
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "iconProps": {
+            "id": "hpa-telemarketing",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "green",
+            "mutedClassName": "c-action-primary"
+          },
+          "itemProps": {
+            "type": "internal",
+            "href": "https://api.whatsapp.com/send?l=pt-BR&phone=5511964335064",
+            "noFollow": false,
+            "tagTitle": "suporte",
+            "text": "Fale Conosco"
+          }
+        }
+      ]
+    }
+  }
+}

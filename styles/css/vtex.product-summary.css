@@ -1,0 +1,46 @@
+.productBrand {
+    color: cornsilk;
+    font-size: small;
+}
+
+.brandName {
+    color: cornsilk;
+}
+
+.element {
+    background-color: #424242;
+    padding: 5px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.currencyCode {
+    color: cornsilk;
+}
+
+.currencyLiteral {
+    color: cornsilk;
+}
+
+.currencyInteger {
+    color:cornsilk
+}
+
+.currencyFraction {
+    color: cornsilk;
+}
+
+.currencyDecimal {
+    color: cornsilk;
+}
+
+.sellingPrice {
+    color: cornsilk;
+}
+
+.sellingPriceLabel {
+    color: cornsilk;
+}

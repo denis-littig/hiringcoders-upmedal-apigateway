@@ -1,0 +1,123 @@
+{
+  "store.home": {
+    "blocks": ["flex-layout.row#tabs-desktop"]
+  },
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1", "image#2"]
+  },
+  "image#1": {
+    "props": {
+      "src": "https://hiringcoders2021.vteximg.com.br/arquivos/ids/155464",
+      "maxWidth": 912,
+      "blockClass": "sliderimage"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://hiringcoders2021.vteximg.com.br/arquivos/ids/155535",
+      "maxWidth": 912,
+      "blockClass": "sliderimage"
+    }
+  },
+
+  //Tab layout @ desktop
+  "flex-layout.row#tabs-desktop": {
+    "props": {
+      "blockClass": "tabshome",
+      "fullWidth": true
+    },
+    "children": ["tab-layout#home"]
+  },
+  // "slider-layout#tabs": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 6,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "blockClass": "tabs",
+  //     "showPaginationDots": "never",
+  //     "infinite": "false",
+  //     "fullWidth": "true",
+  //     "navigationStep": 1
+
+  //   },
+  //   "children": [
+  //     "tab-list.item#promocao",
+  //     "tab-list.item#corinthians",
+  //     "tab-list.item#palmeiras",
+  //     "tab-list.item#signos",
+  //     "tab-list.item#divertidos",
+  //     "tab-list.item#7maravilhas"
+  //   ]
+  // },
+  "search-result-layout.desktop#home": {
+    "children": ["flex-layout.row#result"],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#result": {
+    "children": ["search-content#home"]
+  },
+  "search-content#home": {
+    "blocks": ["gallery#home", "not-found"]
+  },
+  "gallery#home": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 2,
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          }
+        }
+      ],
+      "GridSummary": "product-summary.shelf#home"
+    }
+  },
+  "product-summary.shelf#home": {
+    "children": [
+      "product-summary-name",
+      "product-images#home",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "vtex.product-highlights@2.x:product-highlights",
+      "add-to-cart-button#home"
+    ]
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "link": "/collection/{highlightId}"
+    }
+  },
+  "product-images#home": {
+    "props": {
+      "showNavigationArrows": true
+    }
+  },
+  "add-to-cart-button#home": {
+    "props": {
+      "onClickBehavior": "go-to-product-page",
+      "text": "Ver Detalhes"
+    }
+  }
+}

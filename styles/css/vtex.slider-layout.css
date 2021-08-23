@@ -1,0 +1,13 @@
+.slideChildrenContainer--carousel {
+    padding-bottom: 25px;
+    padding-top: 10px;
+    background-color: #323232;
+}
+
+.sliderTrack--tabs {
+    background-color: #212121;
+}
+
+.paginationDot--isActive {
+    background-color: lime;
+}
